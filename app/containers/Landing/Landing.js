@@ -153,10 +153,10 @@ export const Landing = React.createClass({
 								onChange={this.updateZipcode} />
 						</label>
 						<label htmlFor={'phone-input'} style={styles.inputLabel}>
-							Phone number (to connect you to your reps)
+							Email
 							<Phone
 								country={'US'} 								className={'pt-input pt-large pt-fill'}
-								placeholder={'Enter your phone number'} 	value={this.state.phone}
+								placeholder={'Enter your email address'} 	value={this.state.phone}
 								onChange={phone => this.setState({ phone: phone })} />
 							<div style={styles.inputSubtext}>
 								<div 
